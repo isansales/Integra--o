@@ -62,3 +62,56 @@ O orçamento abaixo contempla equipamentos de nível industrial para garantir al
 | **TOTAL DO INVESTIMENTO** | **R$ 100.000,00** |
 
 ---
+
+# 🗺️ Arquitetura da Solução Proposta
+
+Abaixo, apresentamos a visualização estrutural da rede industrial e corporativa da **EcoBrick Solutions**.
+
+---
+
+## 5. Diagrama da Arquitetura de Rede
+
+Este diagrama representa a hierarquia da planta, desde o sensoriamento de campo até o banco de dados corporativo.
+
+### 📊 Representação Visual (Mermaid)
+
+```mermaid
+graph TD
+    %% Nível Corporativo
+    CORP[REDE CORPORATIVA] --> FW[Firewall / Roteador]
+    
+    %% Nível de Rede
+    FW --> VLAN{REDE INDUSTRIAL - VLAN}
+    
+    %% Nível de Distribuição
+    VLAN --> SW[Switch Industrial Gerenciável]
+    
+    %% Conexões do Switch
+    SW --> CLP1[CLP 1 - Prensa 1]
+    SW --> CLP2[CLP 2 - Prensa 2]
+    SW --> IHM[IHM - Operação]
+    SW --> SCADA[Servidor SCADA - Supervisório]
+    
+    %% Dispositivos de Campo Prensa 1
+    subgraph Campo_Prensa_1 [Dispositivos Prensa 1]
+        CLP1 --> S1[Sensores: Pressão/Umidade]
+        CLP1 --> A1[Atuadores: Válvulas/Motores]
+        CLP1 --> INV1[Inversor de Frequência]
+    end
+    
+    %% Dispositivos de Campo Prensa 2
+    subgraph Campo_Prensa_2 [Dispositivos Prensa 2]
+        CLP2 --> S2[Sensores: Pressão/Umidade]
+        CLP2 --> A2[Atuadores: Válvulas/Motores]
+    end
+    
+    %% Gestão de Dados
+    SCADA --> BD[(Banco de Dados / Histórico)]
+    
+    %% Expansão
+    SW -.-> EXP[PORTAS LIVRES: Expansão Futura]
+    
+    %% Estilização
+    style VLAN fill:#f9f,stroke:#333,stroke-width:2px
+    style SW fill:#bbf,stroke:#333,stroke-width:2px
+    style EXP stroke-dasharray: 5 5
