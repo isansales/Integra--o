@@ -1,4 +1,4 @@
-# 🧱 Projeto de Implantação: EcoBrick Solutions
+# Projeto de Implantação: EcoBrick Solutions
 **Documento de Planejamento de Automação e Infraestrutura**
 
 ---
