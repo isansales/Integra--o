@@ -226,7 +226,7 @@ Abaixo, apresentamos a visualização estrutural da rede industrial e corporativ
 
 Este diagrama representa a hierarquia da planta, desde o sensoriamento de campo até o banco de dados corporativo.
 
-### 📊Representação Visual (Mermaid)
+### Representação Visual (Mermaid)
 
 ```mermaid
 graph TD
