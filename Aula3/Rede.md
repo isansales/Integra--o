@@ -62,11 +62,11 @@ O orçamento abaixo contempla equipamentos de nível industrial para garantir al
 | **TOTAL DO INVESTIMENTO** | **R$ 100.000,00** |
 
 ---
-# 🛒 Plano de Aquisição e Análise de Escalabilidade
+# lano de Aquisição e Análise de Escalabilidade
 
 ---
 
-## 📦 1. Detalhamento de Dispositivos e Conectividade (BOM)
+##  1. Detalhamento de Dispositivos e Conectividade (BOM)
 
 Os equipamentos foram escolhidos pela sua alta confiabilidade em ambientes com partículas suspensas e calor. Abaixo, o mapeamento de onde cada item será instalado e como será interconectado.
 
@@ -80,7 +80,7 @@ Os equipamentos foram escolhidos pela sua alta confiabilidade em ambientes com p
 
 ---
 
-## 🔌 Guia de Conexão Física (Como conectar)
+##  Guia de Conexão Física (Como conectar)
 
 Abaixo descrevemos o fluxo de sinais para a montagem da infraestrutura:
 
@@ -105,22 +105,22 @@ Abaixo descrevemos o fluxo de sinais para a montagem da infraestrutura:
 
 ---
 
-## 🛠️ Esquema de Montagem no Painel
+## Esquema de Montagem no Painel
 > **Dica de Ouro:** Mantenha os cabos de dados (Ethernet) a pelo menos 10cm de distância dos cabos de potência (380V) dentro das canaletas. Se precisarem se cruzar, faça-o em um ângulo de 90° para minimizar a interferência.
 
 
 ---
 
-## 🚀 2. Escalabilidade e Visão de Futuro
+## 2. Escalabilidade e Visão de Futuro
 
 O projeto foi concebido para que a **EcoBrick Solutions** possa crescer sem a necessidade de substituir a infraestrutura central.
 
-### 📈 Capacidade de Expansão
+###  Capacidade de Expansão
 * **Hardware Modular:** O CLP Siemens S7-1200 permite a adição de módulos de expansão (Signal Boards) para novas prensas ou braços robóticos de paletização.
 * **Rede Sobressalente:** Os switches foram dimensionados com 30% de portas livres para inclusão de novos nós (sensores IoT ou câmeras).
 * **Software:** A licença SCADA escolhida suporta a adição de novos "tags" (variáveis) conforme a planta se expandir.
 
-### 🏢 Integração Corporativa (TI/TA)
+### Integração Corporativa (TI/TA)
 Para alinhar a produção ao escritório (Indústria 4.0), a solução prevê:
 1. **OPC UA:** O CLP comunica-se via protocolo OPC UA, facilitando a leitura de dados diretamente por sistemas ERP (como SAP ou Totvs).
 2. **Dashboard de Produção:** Integração com Power BI para que a diretoria visualize o custo por tijolo e o consumo de energia em tempo real.
@@ -128,7 +128,7 @@ Para alinhar a produção ao escritório (Indústria 4.0), a solução prevê:
 
 ---
 
-## 🛠️ 3. Adequação ao Ambiente Industrial
+## 3. Adequação ao Ambiente Industrial
 O ambiente de produção de tijolos é agressivo. Por isso, adotamos as seguintes premissas:
 
 * **Grau de Proteção:** Painéis com certificação **IP65** (proteção total contra poeira e jatos de água).
@@ -137,7 +137,7 @@ O ambiente de produção de tijolos é agressivo. Por isso, adotamos as seguinte
 
 ---
 
-## 🏁 4. Cronograma Final de Go-Live
+##  4. Cronograma Final de Go-Live
 
 
 
@@ -155,7 +155,7 @@ O ambiente de produção de tijolos é agressivo. Por isso, adotamos as seguinte
 
 SUBIR COMITT 3
 
-# 📊 Relatório de Viabilidade Técnica e Econômica (VTE)
+# Relatório de Viabilidade Técnica e Econômica (VTE)
 
 Este documento analisa o equilíbrio entre o investimento em automação (CAPEX) e os ganhos operacionais esperados (OPEX) para a unidade de tijolos ecológicos.
 
@@ -205,7 +205,7 @@ A infraestrutura foi projetada sob o conceito de **Modularidade Industrial**:
 
 ---
 
-## 💡 Conclusão: Benefícios Estratégicos para o Negócio
+##  Conclusão: Benefícios Estratégicos para o Negócio
 
 A implementação da rede e automação posiciona a **EcoBrick Solutions** como líder tecnológica no setor de construção sustentável:
 
@@ -216,7 +216,7 @@ A implementação da rede e automação posiciona a **EcoBrick Solutions** como 
 ---
 
 
-# 🗺️ Arquitetura da Solução Proposta
+#  Arquitetura da Solução Proposta
 
 Abaixo, apresentamos a visualização estrutural da rede industrial e corporativa da **EcoBrick Solutions**.
 
@@ -226,7 +226,7 @@ Abaixo, apresentamos a visualização estrutural da rede industrial e corporativ
 
 Este diagrama representa a hierarquia da planta, desde o sensoriamento de campo até o banco de dados corporativo.
 
-### 📊 Representação Visual (Mermaid)
+### 📊Representação Visual (Mermaid)
 
 ```mermaid
 graph TD
